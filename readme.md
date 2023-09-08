@@ -22,8 +22,8 @@ schematics .:scaffolding-tool --debug=false
 ```
 cd test-angular-project
 npm link ../scaffolding-tool
-schematics scaffolding-tool:scaffolding-tool --debug=false
+schematics scaffolding-tool:testing --debug=false
 
-ng add scaffolding-tool --name=e (will generate files at the root folder)
-ng g scaffolding-tool:scaffolding-tool (will generate files at the root folder)
+ng add my-component --name=e (will generate files at the root folder)
+ng g scaffolding-tool:testing (will generate files at the root folder)
 ```

@@ -3,12 +3,12 @@
   "schematics": {
     "testing": {
       "description": "A blank schematic.",
-      "factory": "./scaffolding-tool/index#myComponent",
-      "schema": "./scaffolding-tool/schema.json"
+      "factory": "./testing/index#myComponent",
+      "schema": "./testing/schema.json"
     },
     "ng-add": {
       "description": "Add SCSS folder and directory file scaffolding.",
-      "factory": "./scaffolding-tool/index#myComponent"
+      "factory": "./testing/index#myComponent"
     }
   }
 }
