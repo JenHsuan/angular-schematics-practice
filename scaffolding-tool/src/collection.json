@@ -6,6 +6,16 @@
       "factory": "./testing/index#myComponent",
       "schema": "./testing/schema.json"
     },
+    "rfc": {
+      "description": "A blank schematic.",
+      "factory": "./react-component/index#reactFunctionalComponent",
+      "schema": "./react-component/schema.json"
+    },
+    "rce": {
+      "description": "A blank schematic.",
+      "factory": "./react-component/index#reactClassComponent",
+      "schema": "./react-component/schema.json"
+    },
     "ng-add": {
       "description": "Add SCSS folder and directory file scaffolding.",
       "factory": "./testing/index#myComponent"
