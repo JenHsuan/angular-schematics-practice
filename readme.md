@@ -14,16 +14,16 @@ npm run build-watch
 
 3. Execute the customized Schematics with `schematics-cli` command
 ```
-cd my-component
-schematics .:my-component --debug=false
+cd scaffolding-tool
+schematics .:scaffolding-tool --debug=false
 ```
 
 4. Execute the customized Schematics in `angular cli workspace`
 ```
 cd test-angular-project
-npm link ../my-component
-schematics my-component:my-component --debug=false
+npm link ../scaffolding-tool
+schematics scaffolding-tool:scaffolding-tool --debug=false
 
-ng add my-component --name=e (will generate files at the root folder)
-ng g my-component:my-component (will generate files at the root folder)
+ng add scaffolding-tool --name=e (will generate files at the root folder)
+ng g scaffolding-tool:scaffolding-tool (will generate files at the root folder)
 ```

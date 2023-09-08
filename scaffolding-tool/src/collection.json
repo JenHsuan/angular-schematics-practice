@@ -1,14 +1,14 @@
 {
   "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
   "schematics": {
-    "my-component": {
+    "testing": {
       "description": "A blank schematic.",
-      "factory": "./my-component/index#myComponent",
-      "schema": "./my-component/schema.json"
+      "factory": "./scaffolding-tool/index#myComponent",
+      "schema": "./scaffolding-tool/schema.json"
     },
     "ng-add": {
       "description": "Add SCSS folder and directory file scaffolding.",
-      "factory": "./my-component/index#myComponent"
+      "factory": "./scaffolding-tool/index#myComponent"
     }
   }
 }
