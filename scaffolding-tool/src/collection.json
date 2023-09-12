@@ -19,6 +19,10 @@
     "ng-add": {
       "description": "Add SCSS folder and directory file scaffolding.",
       "factory": "./testing/index#myComponent"
+    },
+    "cyto-setup": {
+      "description": "Add SCSS folder and directory file scaffolding.",
+      "factory": "./cytoscape/index#setupCytoscapeProject"
     }
   }
 }
